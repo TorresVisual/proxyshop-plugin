@@ -66,7 +66,8 @@ class TorresNeonTemplate (temp.NormalTemplate):
     def twins_layer(self) -> Optional[ArtLayer]:
         return
     
-    class TorresCrystallTemplate (temp.NormalTemplate):
+
+class TorresCrystallTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
