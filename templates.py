@@ -65,3 +65,26 @@ class TorresNeonTemplate (temp.NormalTemplate):
     @property
     def twins_layer(self) -> Optional[ArtLayer]:
         return
+    
+    class TorresCrystallTemplate (temp.NormalTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresCrystall"
+    template_suffix = "Crystall"
+
+    @property
+    def is_nyx(self) -> bool:
+        return False
+
+    @property
+    def is_companion(self) -> bool:
+        return False
+
+    @property
+    def background_layer(self) -> Optional[ArtLayer]:
+        return
+
+    @property
+    def twins_layer(self) -> Optional[ArtLayer]:
+        return
