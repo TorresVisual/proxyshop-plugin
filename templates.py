@@ -89,3 +89,27 @@ class TorresCrystallTemplate (temp.NormalTemplate):
     @property
     def twins_layer(self) -> Optional[ArtLayer]:
         return
+    
+
+class TorresBorderlessIkoriaTemplate (temp.NormalTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresBorderlessIkoria"
+    template_suffix = "Borderless Ikoria"
+
+    @property
+    def is_nyx(self) -> bool:
+        return False
+
+    @property
+    def is_companion(self) -> bool:
+        return False
+
+    @property
+    def background_layer(self) -> Optional[ArtLayer]:
+        return
+
+    @property
+    def twins_layer(self) -> Optional[ArtLayer]:
+        return
