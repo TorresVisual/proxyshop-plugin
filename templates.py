@@ -19,7 +19,7 @@ import photoshop.api as ps
 app = ps.Application()
 
 
-    class TorresNinjaFullartTemplate (temp.NormalTemplate):
+class TorresNinjaFullartTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
