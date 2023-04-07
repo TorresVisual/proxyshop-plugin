@@ -4,14 +4,14 @@ TORRESVISUALS TEMPLATES
 import os
 from functools import cached_property
 
-import proxyshop.text_layers as text_classes
-from proxyshop.__console__ import console
-from proxyshop import templates as temp
-from proxyshop import format_text as ft
-from proxyshop.constants import con
-from proxyshop.settings import cfg
+import src.text_layers as text_classes
+from src.__console__ import console
+from src import templates as temp
+from src import format_text as ft
+from src.constants import con
+from src.settings import cfg
 from typing import Optional
-import proxyshop.helpers as psd
+import src.helpers as psd
 
 from photoshop.api._layerSet import LayerSet
 from photoshop.api._artlayer import ArtLayer
