@@ -23,7 +23,6 @@ class TorresNinjaFullartTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresNinjaFullart"
     template_suffix = "Ninja Fullart"
 
     @property
@@ -47,7 +46,6 @@ class TorresNeonTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresNeon"
     template_suffix = "Neon"
 
     @property
@@ -71,7 +69,6 @@ class TorresCrystallTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresCrystall"
     template_suffix = "Crystall"
 
     @property
@@ -95,7 +92,6 @@ class TorresBorderlessIkoriaTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresBorderlessIkoria"
     template_suffix = "Borderless Ikoria"
 
     @property
@@ -119,7 +115,6 @@ class TorresStainedGlassTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresStainedGlass"
     template_suffix = "Stained Glass"
 
     @property
@@ -143,7 +138,6 @@ class TorresDragonTemplate (temp.NormalTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresDragon"
     template_suffix = "Dragon"
 
     @property
@@ -167,7 +161,6 @@ class TorresSignatureBasicLandTemplate (temp.BasicLandTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresSignatureBasic"
     template_suffix = "Signature Basic"
 
     def __init__(self, layout):
@@ -191,7 +184,6 @@ class TorresJapaneseBasicLandTemplate (temp.BasicLandTemplate):
     """
      * Created by TorresVisuals
     """
-    template_file_name = "TorresVisuals/TorresJapaneseBasic"
     template_suffix = "Japanese Basic"
 
     def __init__(self, layout):
