@@ -4,7 +4,8 @@
         "Torres Neon": "TorresNeonTemplate",
         "Torres Crystall": "TorresCrystallTemplate",
         "Torres Borderless Ikoria": "TorresBorderlessIkoriaTemplate",
-        "Torres Stained Glass": "TorresStainedGlassTemplate"
+        "Torres Stained Glass": "TorresStainedGlassTemplate",
+        "Torres Dragon": "TorresDragonTemplate"
     },
     "basic": {
         "Torres Signature Basic": "TorresSignatureBasicLandTemplate",

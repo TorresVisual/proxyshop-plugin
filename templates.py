@@ -139,6 +139,30 @@ class TorresStainedGlassTemplate (temp.NormalTemplate):
         return
 
 
+class TorresDragonTemplate (temp.NormalTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresDragon"
+    template_suffix = "Dragon"
+
+    @property
+    def is_nyx(self) -> bool:
+        return False
+
+    @property
+    def is_companion(self) -> bool:
+        return False
+
+    @property
+    def background_layer(self) -> Optional[ArtLayer]:
+        return
+
+    @property
+    def twins_layer(self) -> Optional[ArtLayer]:
+        return
+
+
 class TorresSignatureBasicLandTemplate (temp.BasicLandTemplate):
     """
      * Created by TorresVisuals
