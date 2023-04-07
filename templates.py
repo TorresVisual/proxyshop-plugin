@@ -113,3 +113,75 @@ class TorresBorderlessIkoriaTemplate (temp.NormalTemplate):
     @property
     def twins_layer(self) -> Optional[ArtLayer]:
         return
+
+
+class TorresStainedGlassTemplate (temp.NormalTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresStainedGlass"
+    template_suffix = "Stained Glass"
+
+    @property
+    def is_nyx(self) -> bool:
+        return False
+
+    @property
+    def is_companion(self) -> bool:
+        return False
+
+    @property
+    def background_layer(self) -> Optional[ArtLayer]:
+        return
+
+    @property
+    def twins_layer(self) -> Optional[ArtLayer]:
+        return
+
+
+class TorresSignatureBasicLandTemplate (temp.BasicLandTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresSignatureBasic"
+    template_suffix = "Signature Basic"
+
+    def __init__(self, layout):
+        cfg.save_artist_name = True
+        cfg.real_collector = False
+        super().__init__(layout)
+
+    @property
+    def art_reference(self) -> str:
+        return con.layers.BASIC_ART_FRAME
+
+    @cached_property
+    def text_layers(self) -> Optional[LayerSet]:
+        return self.app.activeDocument
+
+    def enable_frame_layers(self):
+        psd.getLayer(self.layout.name).visible = True
+
+
+class TorresJapaneseBasicLandTemplate (temp.BasicLandTemplate):
+    """
+     * Created by TorresVisuals
+    """
+    template_file_name = "TorresVisuals/TorresJapaneseBasic"
+    template_suffix = "Japanese Basic"
+
+    def __init__(self, layout):
+        cfg.save_artist_name = True
+        cfg.real_collector = False
+        super().__init__(layout)
+
+    @property
+    def art_reference(self) -> str:
+        return con.layers.BASIC_ART_FRAME
+
+    @cached_property
+    def text_layers(self) -> Optional[LayerSet]:
+        return self.app.activeDocument
+
+    def enable_frame_layers(self):
+        psd.getLayer(self.layout.name).visible = True

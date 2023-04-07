@@ -3,6 +3,11 @@
         "Torres Ninja Fullart": "TorresNinjaFullartTemplate",
         "Torres Neon": "TorresNeonTemplate",
         "Torres Crystall": "TorresCrystallTemplate",
-        "Torres Borderless Ikoria": "TorresBorderlessIkoriaTemplate"
+        "Torres Borderless Ikoria": "TorresBorderlessIkoriaTemplate",
+        "Torres Stained Glass": "TorresStainedGlassTemplate"
+    },
+    "basic": {
+        "Torres Signature Basic": "TorresSignatureBasicLandTemplate",
+        "Torres Japanese Basic": "TorresJapaneseBasicLandTemplate"
     }
 }

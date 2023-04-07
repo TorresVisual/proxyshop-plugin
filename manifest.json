@@ -15,7 +15,21 @@
         "Torres Borderless Ikoria": {
             "file": "TorresBorderlessIkoria.psd",
             "id": "10YHZO4JWzIvNWx08Ys_aw1ntINLlS8pZ" 
+        },
+        "Torres Stained Glass": {
+            "file": "TorresStainedGlass.psd",
+            "id": "10YHZO4JWzIvNWx08Ys_aw1ntINLlS8pZ"
         }
 
+    },
+    "Basic":{
+        "Torres Signature Basic": {
+            "file": "TorresSignatureBasic.psd",
+            "id": "1ysugvR5cJ79ZOTrHRgfkgf498E1ZBy41"
+        },
+        "Torres Japanese Basic": {
+            "file": "TorresJapaneseBasic.psd",
+            "id": "1I284sjo1DWPBVGRlH6Z5qRhy26EnNfM9"
+        }
     }
 }
