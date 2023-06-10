@@ -1,22 +1,19 @@
 """
 TORRESVISUALS TEMPLATES
 """
-import os
+# Standard Library
 from functools import cached_property
 
-import src.text_layers as text_classes
-from src.__console__ import console
+# Third Party
+from photoshop.api._layerSet import LayerSet
+from photoshop.api._artlayer import ArtLayer
+
+# Local Imports
 from src import templates as temp
-from src import format_text as ft
 from src.constants import con
 from src.settings import cfg
 from typing import Optional
 import src.helpers as psd
-
-from photoshop.api._layerSet import LayerSet
-from photoshop.api._artlayer import ArtLayer
-import photoshop.api as ps
-app = ps.Application()
 
 
 class TorresNinjaFullartTemplate (temp.NormalTemplate):
